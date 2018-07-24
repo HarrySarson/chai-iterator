@@ -1,3 +1,4 @@
+:exclamation: :exclamation: :exclamation: :exclamation: :exclamation: :exclamation:
 # Fork of [chai-iterator](https://github.com/mcmath/chai-iterator) which is currently not maintained.
 
 Install this fork by running
@@ -6,7 +7,7 @@ Install this fork by running
 npm install --save @harrysarson/chai-iterator
 ```
 
----
+:exclamation: :exclamation: :exclamation: :exclamation: :exclamation: :exclamation:
 
 # Chai Iterator: Assertions for iterable objects
 
