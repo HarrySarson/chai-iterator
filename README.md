@@ -1,3 +1,13 @@
+# Fork of [chai-iterator](https://github.com/mcmath/chai-iterator) which is currently not maintained.
+
+Install this fork by running
+
+```sh
+npm install --save @harrysarson/chai-iterator
+```
+
+---
+
 # Chai Iterator: Assertions for iterable objects
 
 [![Version][version-badge]][npm]
