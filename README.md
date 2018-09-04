@@ -1,13 +1,3 @@
-:exclamation: :exclamation: :exclamation: :exclamation: :exclamation: :exclamation:
-# Fork of [chai-iterator](https://github.com/mcmath/chai-iterator).
-
-chai-iterator is currently not maintained and is incompatible with chai@4.
-
-Install this fork by running
-
-```sh
-npm install --save chai @harrysarson/chai-iterator
-```
 
 :exclamation: :exclamation: :exclamation: :exclamation: :exclamation: :exclamation:
 
