@@ -4,7 +4,7 @@
   "description": "Chai assertions for iterable objects",
   "main": "chai-iterator.js",
   "scripts": {
-    "test:lint": "eslint chai-iterator.js",
+    "test:lint": "xo",
     "test:mocha": "mocha",
     "test:cover": "nyc mocha",
     "test": "npm run test:lint && npm run test:cover",
@@ -50,6 +50,17 @@
     "coveralls": "3.0.2",
     "mocha": "5.2.0",
     "nyc": "13.0.1",
-    "eslint": "3.18.0"
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "esnext": false,
+    "globals": [
+      "chai",
+      "define",
+      "module"
+    ],
+    "rules": {
+      "no-unused-expressions": "off"
+    }
   }
 }

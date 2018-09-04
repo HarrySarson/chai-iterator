@@ -10,6 +10,7 @@ With version 3, chai-iterator has changed ownership.
 This release updates the libary to work with chai@4, to use chai-iterator with chai@3 stick to version 1.
 
 ### Changed
+- Passing null to functions with optional arguments will now cause an error.
 
 ### Removed
 - Typescript support: I don't know much about typescript and cannot maintain the definitions.
