@@ -2,10 +2,9 @@
 # chai-iterator: Assertions for iterable objects
 
 [![Version][version-badge]][npm]
-[![License][license-badge]][license]
 [![Build][build-badge]][travis]
 [![Coverage][coverage-badge]][coveralls]
-[![Dependencies][dependencies-badge]][gemnasium]
+[![Dependencies][dependencies-badge]][greenkeeper]
 
 ## Contents
 
@@ -581,16 +580,16 @@ assert.lengthOf(range(6, 42), 36);
 
 Copyright &copy; 2016&ndash;2017 Akim McMath. Licensed under the [MIT License][license].
 
-[version-badge]: https://img.shields.io/npm/v/chai-iterator.svg?style=flat-square
-[license-badge]: https://img.shields.io/npm/l/chai-iterator.svg?style=flat-square
-[build-badge]: https://img.shields.io/travis/mcmath/chai-iterator/master.svg?style=flat-square
-[coverage-badge]: https://img.shields.io/coveralls/mcmath/chai-iterator/master.svg?style=flat-square&service=github
-[dependencies-badge]: https://img.shields.io/gemnasium/mcmath/chai-iterator.svg?style=flat-square
+[version-badge]: https://badge.fury.io/js/chai-iterator.svg
+[build-badge]: https://travis-ci.com/harrysarson/chai-iterator.svg?branch=master
+[coverage-badge]: https://coveralls.io/github/harrysarson/chai-iterator?branch=master
+[dependencies-badge]: https://badges.greenkeeper.io/harrysarson/chai-iterator.svg
+
 [npm]: https://www.npmjs.com/package/chai-iterator
-[license]: LICENSE
-[travis]: https://travis-ci.org/mcmath/chai-iterator
-[coveralls]: https://coveralls.io/github/mcmath/chai-iterator?branch=master
-[gemnasium]: https://gemnasium.com/mcmath/chai-iterator
+[travis]: https://travis-ci.org/harrysarson/chai-iterator
+[coveralls]: https://coveralls.io/github/harrysarson/chai-iterator?branch=master
+[greenkeeper]: https://greenkeeper.io
+
 [chai]: http://chaijs.com/
 [iterable]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols#iterable
 [ecma-iterable]: http://www.ecma-international.org/ecma-262/6.0/#sec-iterable-interface
