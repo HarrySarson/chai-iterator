@@ -10,6 +10,7 @@ This release updates the libary to work with chai@4, to use chai-iterator with c
 
 ### Changed
 - Passing null to functions with optional arguments will now cause an error.
+- Upgraded peer dependancy from chai@3 to chai@4.
 
 ### Removed
 - Typescript support: I don't know much about typescript and cannot maintain the definitions.
