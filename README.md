@@ -586,7 +586,7 @@ Copyright &copy; 2016&ndash;2017 Akim McMath. Licensed under the [MIT License][l
 [dependencies-badge]: https://badges.greenkeeper.io/harrysarson/chai-iterator.svg
 
 [npm]: https://www.npmjs.com/package/chai-iterator
-[travis]: https://travis-ci.org/harrysarson/chai-iterator
+[travis]: https://travis-ci.com/harrysarson/chai-iterator
 [coveralls]: https://coveralls.io/github/harrysarson/chai-iterator?branch=master
 [greenkeeper]: https://greenkeeper.io
 
