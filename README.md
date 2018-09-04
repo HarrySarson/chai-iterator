@@ -582,7 +582,7 @@ Copyright &copy; 2016&ndash;2017 Akim McMath. Licensed under the [MIT License][l
 
 [version-badge]: https://badge.fury.io/js/chai-iterator.svg
 [build-badge]: https://travis-ci.com/harrysarson/chai-iterator.svg?branch=master
-[coverage-badge]: https://coveralls.io/github/harrysarson/chai-iterator?branch=master
+[coverage-badge]: https://coveralls.io/repos/github/harrysarson/chai-iterator/badge.svg?branch=master
 [dependencies-badge]: https://badges.greenkeeper.io/harrysarson/chai-iterator.svg
 
 [npm]: https://www.npmjs.com/package/chai-iterator
