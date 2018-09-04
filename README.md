@@ -1,6 +1,8 @@
 
 # chai-iterator: Assertions for iterable objects
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/harrysarson/chai-iterator.svg)](https://greenkeeper.io/)
+
 [![Version][version-badge]][npm]
 [![License][license-badge]][license]
 [![Build][build-badge]][travis]
