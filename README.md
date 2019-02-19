@@ -26,12 +26,12 @@ a [`for...of`][for-of] loop. A number of [built-in][built-in-iterable] types are
 iterable by default, while [custom iterable objects][custom-iterable] may also
 be defined. chai-iterator makes it easy to test all such objects.
 
-#### You may not need chai-iterator
+### You may not need chai-iterator
 
 In many cases the [array spread operator][array-spread] is the best way to test iterables.
-chai-iterator is however very usefull for testing part of a very long (or infinite) iterable.
+chai-iterator is however very useful for testing part of a very long (or infinite) iterable.
 
-#### Basic usage
+### Basic usage
 
 Here is a fairly exhaustive sample of the assertions we can make using Chai
 Iterator. While we could just as easily use `expect` or `assert`, we'll use
@@ -67,7 +67,7 @@ And we can pass any iterable as our expected values too.
 'abcde'.should.iterate.until('cde');
 ```
 
-#### User-defined iterable objects
+### User-defined iterable objects
 
 chai-iterator is best used to test
 [user-defined iterable objects][custom-iterable], like the one constructed by
@@ -106,7 +106,7 @@ Just don't go trying to use [`over()`](#iterateoverexpected) or
 [`until()`](#iterateuntilexpected) on infinite sequences. The former will always
 fail and the latter will never stop.
 
-#### Generators and iterators
+### Generators and iterators
 
 Let's generate the [fibonacci sequence][fibonacci-sequence]. A
 [generator function][generator-function] is just a function that returns a
@@ -171,7 +171,7 @@ chai-iterator can be imported as a [Node][node] module, an [AMD][amd]
 module, or included in an HTML [`<script>`][script-tag] tag. For
 [TypeScript][typescript] users, declarations are installed with the package.
 
-#### Node
+### Node
 
 To set up chai-iterator for [Node][node], make sure the version is v4.0 or
 higher, as prior versions lack support for the [`@@iterator`][iterator-method]
@@ -233,7 +233,7 @@ chai.use(chaiIterator);
 
 ## Expect/Should API
 
-#### Assertions
+### Assertions
 
 - [`iterable`](#iterable)
 - [`iterate.over()`](#iterateoverexpected)
@@ -392,7 +392,7 @@ expect([2, 3, 5]).not.to.iterate.for.length.within(4, 7);
 
 ## Assert API
 
-#### Assertions
+### Assertions
 
 - [`isIterable()`](#isiterablevalue-message)
 - [`isNotIterable()`](#isnotiterablevalue-message)
@@ -595,7 +595,7 @@ Copyright &copy; 2016&ndash;2017 Akim McMath. Licensed under the [MIT License][l
 [ecma-iterable]: http://www.ecma-international.org/ecma-262/6.0/#sec-iterable-interface
 [iterator-method]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator
 [for-of]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
-[array-spread]: (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) 
+[array-spread]: (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 [built-in-iterable]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Builtin_iterables
 [custom-iterable]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#User-defined_iterables
 [assertion-style]: http://chaijs.com/guide/styles/
