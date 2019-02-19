@@ -1,6 +1,4 @@
-var infiniteGenerator;
-
-({infiniteGenerator} = require('../fixtures'));
+const {infiniteGenerator} = require('../fixtures');
 
 const {err} = require('../helpers');
 

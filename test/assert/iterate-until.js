@@ -159,8 +159,7 @@ describe('assert: doesNotDeepIterateUntil(value, expected, [message])', function
 	});
 	context('iterator ed by @@iterator is not itself iterable', function () {
 		it('works correctly', function () {
-			var iterable;
-			iterable = customIterableFactory();
+			const iterable = customIterableFactory();
 			err(function () {
 				assert.iteratesUntil(iterable, [3, 5]);
 			});

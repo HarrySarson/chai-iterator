@@ -182,8 +182,7 @@ describe('assert: doesNotDeepIterateOver(value, expected, [message])', function 
 	});
 	context('iterator ed by @@iterator is not itself iterable', function () {
 		it('works correctly', function () {
-			var iterable;
-			iterable = customIterableFactory();
+			const iterable = customIterableFactory();
 			err(function () {
 				assert.iteratesOver(iterable, [2, 3, 5]);
 			});
