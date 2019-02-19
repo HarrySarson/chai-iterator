@@ -5,8 +5,8 @@
   "main": "chai-iterator.js",
   "scripts": {
     "test:lint": "xo",
-    "test:mocha": "mocha",
-    "test:cover": "nyc mocha test/**/*.js",
+    "test:mocha": "mocha test/**/*.js",
+    "test:cover": "nyc npm run test:mocha",
     "test": "npm run test:lint && npm run test:cover",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
