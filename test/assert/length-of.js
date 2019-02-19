@@ -7,19 +7,15 @@ const {err} = require('../helpers');
 
 describe('assert: lengthOf(act, len, [msg])', function () {
 	context('@act is an iterable without a length:number property', function () {
-		var customIterable;
-		customIterable = beforeEach(function () {
-			customIterable = customGenerator();
-		});
 		it('passes if @act has length of @len', function () {
-			assert.lengthOf(customIterable, 3);
+			assert.lengthOf(customGenerator(), 3);
 		});
 		it('throws if @act does not have length of @n', function () {
 			err(function () {
-				assert.lengthOf(customIterable, 4);
+				assert.lengthOf(customGenerator(), 4);
 			});
 			err(function () {
-				assert.lengthOf(customIterable, 2);
+				assert.lengthOf(customGenerator(), 2);
 			});
 		});
 		it('works on infinite iterables', function () {

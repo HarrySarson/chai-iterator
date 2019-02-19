@@ -1,7 +1,5 @@
 
-var chaiIterator;
-
-({chaiIterator} = require('./helpers'));
+const {chaiIterator} = require('./helpers');
 
 describe('plugin: chai-iterator', function () {
 	it('exports a function', function () {

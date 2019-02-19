@@ -76,8 +76,7 @@ describe('expect/should: iterate.until(iterable)', function () {
 	});
 	context('iterator ed by @@iterator is not itself iterable', function () {
 		it('works correctly', function () {
-			var iterable;
-			iterable = customIterableFactory();
+			const iterable = customIterableFactory();
 			err(function () {
 				iterable.should.iterate.until([3, 5]);
 			});
