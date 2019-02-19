@@ -6,18 +6,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [UNRELEASED]
 
 ### Changed
+
 - Updated badges in README.
 
 ## [3.0.0] - 2018-09-04
 
 With version 3, chai-iterator has changed ownership.
-This release updates the libary to work with chai@4, to use chai-iterator with chai@3 stick to version 1.
+This release updates the library to work with chai@4, to use chai-iterator with chai@3 stick to version 1.
 
 ### Changed
+
 - Passing null to functions with optional arguments will now cause an error.
-- Upgraded peer dependancy from chai@3 to chai@4.
+- Upgraded peer dependency from chai@3 to chai@4.
 
 ### Removed
+
 - Typescript support: I don't know much about typescript and cannot maintain the definitions.
 If anyone is willing to maintain typescript definitions please open an issue.
 
