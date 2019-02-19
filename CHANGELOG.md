@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Updated badges in README.
+- Converted tests from coffeescript into javascript.
 
 ## [3.0.0] - 2018-09-04
 
