@@ -6,7 +6,7 @@
   "scripts": {
     "test:lint": "xo",
     "test:mocha": "mocha",
-    "test:cover": "nyc mocha",
+    "test:cover": "nyc mocha test/**/*.js",
     "test": "npm run test:lint && npm run test:cover",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
@@ -59,8 +59,12 @@
       "define",
       "module"
     ],
+    "env": [
+      "mocha"
+    ],
     "rules": {
-      "no-unused-expressions": "off"
+      "no-unused-expressions": "off",
+      "no-use-extend-native/no-use-extend-native": "off"
     }
   }
 }
