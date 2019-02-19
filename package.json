@@ -13,6 +13,7 @@
   "files": [
     "chai-iterator.js",
     "LICENSE",
+    "CHANGELOG.md",
     "README.md"
   ],
   "repository": {
