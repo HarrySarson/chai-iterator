@@ -34,7 +34,7 @@
     "typescript"
   ],
   "engines": {
-    "node": ">=6.0"
+    "node": ">=8.0"
   },
   "author": "Harry Sarson <harry.sarson@hotmail.co.uk>",
   "license": "MIT",
