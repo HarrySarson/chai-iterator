@@ -17,16 +17,17 @@ describe('expect/should: iterable', function () {
 		});
 	});
 	context('target lacks an @@iterator method', function () {
+		const number = 235;
 		it('throws', function () {
 			err(function () {
-				235.0.should.be.iterable;
+				number.should.be.iterable;
 			});
 			err(function () {
 				true.should.be.iterable;
 			});
 		});
 		it('passes when negated', function () {
-			235.0.should.not.be.iterable;
+			number.should.not.be.iterable;
 			true.should.not.be.iterable;
 		});
 	});

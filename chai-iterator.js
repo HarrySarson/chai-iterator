@@ -77,7 +77,7 @@
 					len
 				);
 			} else {
-				_super.apply(this, arguments);
+				Reflect.apply(_super, this, arguments);
 			}
 		};
 	}, function (_super) {
@@ -99,7 +99,7 @@
 					len
 				);
 			} else {
-				_super.apply(this, arguments);
+				Reflect.apply(_super, this, arguments);
 			}
 		};
 	});
@@ -119,7 +119,7 @@
 					act
 				);
 			} else {
-				_super.apply(this, arguments);
+				Reflect.apply(_super, this, arguments);
 			}
 		};
 	});
@@ -137,7 +137,7 @@
 					len
 				);
 			} else {
-				_super.apply(this, arguments);
+				Reflect.apply(_super, this, arguments);
 			}
 		};
 	});
@@ -157,7 +157,7 @@
 					act
 				);
 			} else {
-				_super.apply(this, arguments);
+				Reflect.apply(_super, this, arguments);
 			}
 		};
 	});
@@ -178,7 +178,7 @@
 					act
 				);
 			} else {
-				_super.apply(this, arguments);
+				Reflect.apply(_super, this, arguments);
 			}
 		};
 	});
