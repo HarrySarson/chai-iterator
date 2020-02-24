@@ -1,8 +1,14 @@
 language: node_js
 node_js:
   - "node"
+  - "12"
   - "10"
   - "8"
 
-after_success:
-  - npm run coveralls
+script:  npm run test:cover && npm run coveralls
+
+jobs:
+  include:
+    - stage: lint
+      script: npm run test:lint
+      node_js: lts/*
