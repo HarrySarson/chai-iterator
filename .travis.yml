@@ -5,13 +5,10 @@ node_js:
   - "10"
   - "8"
 
+script:  npm run test:cover && npm run coveralls
+
 jobs:
   include:
-    - stage: test
-      script: npm run test:cover && npm run coveralls
     - stage: lint
       script: npm run test:lint
       node_js: lts
-
-after_success:
-  - npm run coveralls
